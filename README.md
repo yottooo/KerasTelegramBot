@@ -13,9 +13,17 @@ filename = 'model.sav'
 model = pickle.load(open(filename, 'rb'))
 ```
 ## Requirements
-- Pickle
+- Keras(with tensorflow backend)
+- tensorflow
+- pandas
+- numpy
+- pickle
+- pymongo
+- twython
+- telegram
 ## Datasets
 ## Setup
-### Pre-trained model
+
+
 ## Run
 ## References
