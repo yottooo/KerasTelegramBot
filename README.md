@@ -42,7 +42,7 @@ extended_training_set - Contains the training set. This was used to train the mo
 expl_18k - A big set of 18k tweets not contained in the above sets.
 
 all - A combined set of all of the above.
-## Setup
+## Setup and Run
 Install the reguired packages and set up a Jupyter notebook environment.
 ### Training a new model
 1. Import all the reguired packages
@@ -68,7 +68,7 @@ updater.start_polling()
 Now your bot is running!
 To talk with it open the Telegram messenger
 and enter the command "\start".
-## Run
+
 ## References
 [Keras](https://keras.io/)
 [Telegram Bots](https://core.telegram.org/bots)
