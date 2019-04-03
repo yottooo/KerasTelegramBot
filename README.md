@@ -7,6 +7,7 @@ The environment used for developing the application is Jupyter notebook.
 ## Description
 keras.ipynb - Contains the code that was used for training the model. You can use it to train your own model
 or perform evaluations.
+
 kerasBot.ipynb - The code for launching the bot. It uses a pretrained model but you can substitute your own. 
 For privacy reasons the API keys are removed you need to get your own from Twitter and Telegram! 
 ### Pre-trained model
