@@ -41,10 +41,10 @@ all - A combined set of all of the above.
 Install the reguired packages and set up a Jupyter notebook environment.
 ### Training a new model
 1. Import all the reguired packages
-2.Select which training set you want to use
-3.Train your model
-4.Save the model using pickle
-After traing you can perform an evaluation on another set.
+2. Select which training set you want to use
+3. Train your model
+4. Save the model using pickle.
+After training you can perform an evaluation on another set.
 The code for live evaluation is provided in the notebook, you
 can start the stream and see how your model performs live.
 ### Launching your own Bot
@@ -55,8 +55,8 @@ can start the stream and see how your model performs live.
  updater = Updater(token='')
  ```
 4. Set up a collection in [MongoDB](https://docs.mongodb.com/manual/reference/method/db.createCollection/)
-5.Make sure all cells in the notebook are inserted before starting
-6.Start the Bot
+5. Make sure all cells in the notebook are inserted before starting
+6. Start the Bot
 ```
 updater.start_polling()
 ```
