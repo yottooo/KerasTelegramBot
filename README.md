@@ -32,10 +32,15 @@ The datasets used for training the model. The data needs to be provided in a CSV
 The sets consist of labelled tweets. The first column contains the label "1" - true
 and "0"- false. The second column contains the text of the tweet. These sets were 
 not preprocesesed!
+
 Before you use them for training you can use the preprocesing function or you can add your own.
+
 training - a training set consisting of 2900 tweets.
+
 extended_training_set - Contains the training set. This was used to train the model it consist of 7900 tweets.
+
 expl_18k - A big set of 18k tweets not contained in the above sets.
+
 all - A combined set of all of the above.
 ## Setup
 Install the reguired packages and set up a Jupyter notebook environment.
