@@ -71,7 +71,7 @@ To talk with it open the Telegram messenger
 and enter the command "\start".
 
 ## References
-[Keras](https://keras.io/)
-[Telegram Bots](https://core.telegram.org/bots)
-[Twitter Access Tokens](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
-[MongoDB](https://www.mongodb.com/)
+- [Keras](https://keras.io/)
+- [Telegram Bots](https://core.telegram.org/bots)
+- [Twitter Access Tokens](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
+- [MongoDB](https://www.mongodb.com/)
