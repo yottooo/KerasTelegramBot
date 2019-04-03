@@ -1,12 +1,17 @@
 # KerasTelegramBot
 This repository holds the files accompanying the Master Thesis.
 The application consists of multiple files and datasets.
-Below im going to guide through the steps of setting up your own
+
+Below I'm going to guide you through the steps of setting up your own Chatbot
 or training your own model.
+
 The environment used for developing the application is Jupyter notebook.
+
+For more details you can check out the code or the thesis where everything
+is explained step by step!
 ## Description
 keras.ipynb - Contains the code that was used for training the model. You can use it to train your own model
-or perform evaluations.
+or to perform evaluations.
 
 kerasBot.ipynb - The code for launching the bot. It uses a pretrained model but you can substitute your own. 
 For privacy reasons the API keys are removed you need to get your own from Twitter and Telegram! 
@@ -24,6 +29,7 @@ model = pickle.load(open(filename, 'rb'))
 - tensorflow
 - pandas
 - numpy
+- matplotlib
 - pickle
 - pymongo
 - twython
@@ -44,13 +50,20 @@ expl_18k - A big set of 18k tweets not contained in the above sets.
 
 all - A combined set of all of the above.
 ## Setup and Run
-Install the reguired packages and set up a Jupyter notebook environment.
+Install the required packages and set up a Jupyter notebook environment.
 ### Training a new model
 1. Import all the reguired packages
 2. Select which training set you want to use
-3. Train your model
+```
+#creating the Dataframe
+df = pd.read_csv("extended_training_set.csv", sep='\t', header=None,error_bad_lines=False)
+```
+3. Fit the data on your model
 4. Save the model using pickle.
-After training you can perform an evaluation on another set.
+
+After training, you can perform an evaluation on another set,
+or chart using matplotlib.
+
 The code for live evaluation is provided in the notebook, you
 can start the stream and see how your model performs live.
 ### Launching your own Bot
